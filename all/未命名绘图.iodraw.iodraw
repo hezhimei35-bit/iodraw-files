@@ -167,6 +167,94 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-46" value="结果与验证" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="52" y="3133" width="409" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-47" value="双层优化调度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2868" width="689" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-48" value="日前预测建模" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2569" width="462" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-49" value="历史负荷与光伏数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="237" y="2470" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-50" value="日前预测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2737" width="116" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-51" value="周内同类型日EWMA+基线漂移&#xa;分时段独立EWMA" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="211" y="2594" width="255" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-52" value="报童模型 · q=0.8分位安全裕度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="241" y="2727" width="196" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-53" value="双层调度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="3002" width="116" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-54" value="计划层LP · 锁定计划购电" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="2893" width="236" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-55" value="运行层LP · 储能最优调度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="3001" width="236" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-56" value="时序分层约束 · 禁止合并单层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="507" y="2992" width="167" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-57" value="结果验证" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="87" y="3356" width="116" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-58" value="全年经济性分析" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="253" y="3158" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-59" value="典型日工况验证" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="253" y="3256" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-60" value="参数稳健性检验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="253" y="3355" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-61" value="result2.xlsx · 论文结果图表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="212" y="3478" width="254" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-51" target="IRFhKb2y5fy8QFp_Xc89-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-63" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-54" target="IRFhKb2y5fy8QFp_Xc89-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-58" target="IRFhKb2y5fy8QFp_Xc89-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-59" target="IRFhKb2y5fy8QFp_Xc89-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-49" target="IRFhKb2y5fy8QFp_Xc89-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-52" target="IRFhKb2y5fy8QFp_Xc89-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-55" target="IRFhKb2y5fy8QFp_Xc89-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRFhKb2y5fy8QFp_Xc89-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="IRFhKb2y5fy8QFp_Xc89-60" target="IRFhKb2y5fy8QFp_Xc89-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
